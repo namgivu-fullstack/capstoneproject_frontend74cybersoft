@@ -1,5 +1,7 @@
 body * {border: 1px solid #00000033}
 
+body * {font-family: 'Be Vietnam Pro', sans-serif;}
+
 footer {display: flex;  min-width: 0}
 footer .left  {}
 footer .right {margin-left: auto;}
