@@ -5,3 +5,5 @@ body * {font-family: 'Be Vietnam Pro', sans-serif;}
 footer {display: flex;  min-width: 0}
 footer .left  {}
 footer .right {margin-left: auto;}
+
+footer .left .legal {color: #b5b6ba}
