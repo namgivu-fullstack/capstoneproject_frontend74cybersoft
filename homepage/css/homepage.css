@@ -4,6 +4,13 @@ body * {font-family: 'Be Vietnam Pro', sans-serif;}
 
 /**/
 
+body .container-fluid {
+    padding-left:  3rem;
+    padding-right: 3rem;
+}
+
+/**/
+
 footer {display: flex;  min-width: 0}
 footer .left  {}
 footer .right {margin-left: auto;}
@@ -16,4 +23,23 @@ footer i.fa {font-size: 1.6rem}
 .navbar_footer ul {list-style: none; padding-left: 0;}
 .navbar_footer li.subitem {color: #b5b6ba;font-size: 14px;}
 .navbar_footer--title {font-weight: bold;}
+
+/**/
+
+.getstarted {
+    background: url('https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png');
+    background-size: cover;
+    min-height: 333px;
+    background-repeat: no-repeat;
+}
+
+.getstarted p {
+    color: white;
+    font-size: 2.4rem;
+    width: 66%;
+}
+
+/* verticalalignmiddle content of div.getstarted ref. https://stackoverflow.com/a/18649137/248616 */
+.getstarted                      {position: relative}
+.getstarted--verticalalignmiddle {position: absolute; top: 50%;transform: translateY(-50%); }
 /*TODO scss var greytextcolor=#b5b6ba*/
