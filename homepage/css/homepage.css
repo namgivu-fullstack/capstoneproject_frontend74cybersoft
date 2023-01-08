@@ -49,4 +49,8 @@ footer i.fa {font-size: 1.6rem}
 .fiverrguide h2          {font-weight: bold}
 .fiverrguide .card-title {font-weight: bold}
 
+/* righttop position */
+.fiverrguide          {position: relative}
+.fiverrguide .seemore {position: absolute; right: 0; top: 0}
+
 /*TODO scss var greytextcolor=#b5b6ba*/
