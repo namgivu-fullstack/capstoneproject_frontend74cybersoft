@@ -51,6 +51,15 @@ footer i.fa {font-size: 1.6rem}
 
 /* righttop position */
 .fiverrguide          {position: relative}
-.fiverrguide .seemore {position: absolute; right: 0; top: 0}
+.fiverrguide .seemore {position: absolute; right: 3rem; top: 0}
+
+.madeonfiverr         {position: relative}
+.madeonfiverr .seemore {position: absolute; right: 3rem; top: 0}
+
 
 /*TODO scss var greytextcolor=#b5b6ba*/
+/*TODO scss var body--padding-right=3rem used for
+body .container-fluid {
+.fiverrguide .seemore { top
+.madeonfiverr .seemore { top
+   */
