@@ -8,3 +8,10 @@ footer .right {margin-left: auto;}
 
 footer .left .legal {color: #b5b6ba}
 footer i.fa {font-size: 1.6rem}
+
+/**/
+
+.navbar_footer ul {
+    list-style: none;
+    padding-left: 0;
+}
