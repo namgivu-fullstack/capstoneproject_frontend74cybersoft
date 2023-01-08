@@ -42,4 +42,11 @@ footer i.fa {font-size: 1.6rem}
 /* verticalalignmiddle content of div.getstarted ref. https://stackoverflow.com/a/18649137/248616 */
 .getstarted                      {position: relative}
 .getstarted--verticalalignmiddle {position: absolute; top: 50%;transform: translateY(-50%); }
+
+
+/**/
+
+.fiverrguide h2          {font-weight: bold}
+.fiverrguide .card-title {font-weight: bold}
+
 /*TODO scss var greytextcolor=#b5b6ba*/
