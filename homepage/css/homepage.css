@@ -58,7 +58,7 @@ footer i.fa {font-size: 1.6rem}
 .madeonfiverr          {position: relative}
 .madeonfiverr .seemore {position: absolute; right: 3rem; top: 0}
 
-.madeonfiverr--carousel * {background-color: #60606033}
+.madeonfiverr--carousel .slick-arrow {background-color: #60606033}
 
 /*TODO scss var greytextcolor=#b5b6ba*/
 
