@@ -53,13 +53,17 @@ footer i.fa {font-size: 1.6rem}
 .fiverrguide          {position: relative}
 .fiverrguide .seemore {position: absolute; right: 3rem; top: 0}
 
-.madeonfiverr         {position: relative}
+/**/
+
+.madeonfiverr          {position: relative}
 .madeonfiverr .seemore {position: absolute; right: 3rem; top: 0}
 
+.madeonfiverr--carousel * {background-color: #60606033}
 
 /*TODO scss var greytextcolor=#b5b6ba*/
+
 /*TODO scss var body--padding-right=3rem used for
 body .container-fluid {
 .fiverrguide .seemore { top
 .madeonfiverr .seemore { top
-   */
+*/

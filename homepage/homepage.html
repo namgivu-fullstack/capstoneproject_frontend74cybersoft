@@ -17,6 +17,10 @@
          NOTE here we use fontawesome 4 ref. https://fontawesome.com/v4/icons/ -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- carousel w/ slick ref. https://kenwheeler.github.io/slick/-->
+    <link rel="stylesheet" type="text/css" href="./lib/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./lib/slick/slick-theme.css"/>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/homepage.css">
 
@@ -32,7 +36,32 @@
         <h2>Get inspired with projects made by our freelancers</h2>
         <a class="seemore" href="#">See More Projects <i class="fa fa-angle-right"></i></a>
 
-        <!--TODO carousel-->
+        <div class="madeonfiverr--carousel">
+            <div class="carousel-item active">
+                <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_320,dpr_1.0/v1/attachments/generic_asset/asset/d51cf66f8a7026eb56a8c8e6b6793b24-1617027896306/lamonastudio-img.png">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_320,dpr_1.0/v1/attachments/generic_asset/asset/f23a46693ef0e611430e232cbc989e2b-1617004615063/bruno_malagrino.png">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_320,dpr_1.0/v1/attachments/generic_asset/asset/f23a46693ef0e611430e232cbc989e2b-1617004615063/annapietrangeli.jpeg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <div class="container-fluid fiverrguide">
@@ -175,8 +204,18 @@
         </div>
     </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- carousel w/ slick ref. https://kenwheeler.github.io/slick/-->
+    <script type="text/javascript" src="./lib/slick/slick.min.js"></script>
+    <script>
+        $(function(){
+            $('.madeonfiverr--carousel').slick({
+                /*more config if any*/
+            })
+        })
+    </script>
+
 </body>
 </html>
