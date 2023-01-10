@@ -1,0 +1,27 @@
+#carousel{
+    background-image: url(./images/bg-first-hero-d92a52e389008a9c36e1cb59634ae244.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel__nav{
+    position: absolute;
+    background-color: #ffffff66 !important;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel__nav li{
+    text-align: center;
+    padding: 20px 130px;
+    color: white;
+}
