@@ -17,6 +17,15 @@
       crossorigin="anonymous"
     />
 
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -43,12 +52,15 @@
             <a class="nav-link" href="#">Explore</a>
           </li>
           <li class="nav-item">
-            <i></i>
-            <a class="nav-link" href="#">English</a>
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-globe"></i> English</a
+            >
           </li>
           <li class="nav-item">
-            <i></i>
-            <a class="nav-link" href="#">USD</a>
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-dollar-sign"></i>
+              USD</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Become a Seller</a>
@@ -76,7 +88,7 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item">
-             A Gig is Bought Every<br />
+            A Gig is Bought Every<br />
             <h1>4 sec</h1>
           </li>
           <li class="nav-item">
@@ -92,91 +104,309 @@
     </section>
 
     <section id="project" class="container py-5">
-        <div class="title text-center">
-          <h1>Join our growing freelance community</h1>
-        </div>
-        <div class="project__content">
-  
-          <!-- Tab panes -->
-          <div class="tab-content">
-            <div class="tab-pane container active" id="allProject">
-              <div class="row">
-                <div class="col-12 col-sm-6 col-md-3 mb-4">
-                  <div class="card">
-                    <img class="card-img-top" src="./images/designer.jpg" alt="" />
-                    <div class="card-body">
-                      <h4 class="card-title">Apologetic robot holding flowers</h4>
-                      <p class="card-text">Branding</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 mb-4">
-                  <div class="card">
-                    <img class="card-img-top" src="./images/developer.jpg" alt="" />
-                    <div class="card-body">
-                      <h4 class="card-title">Woman walking her small dog</h4>
-                      <p class="card-text">Illustrations</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 mb-4">
-                  <div class="card">
-                    <img class="card-img-top" src="./images/writer.jpg" alt="" />
-                    <div class="card-body">
-                      <h4 class="card-title">Oil bottle branding</h4>
-                      <p class="card-text">Branding</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                  <div class="card">
-                    <img class="card-img-top" src="./images/video.jpg" alt="" />
-                    <div class="card-body">
-                      <h4 class="card-title">Smiling Woman</h4>
-                      <p class="card-text">Illustrations</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                  <div class="card">
-                    <img class="card-img-top" src="./images/musician.jpg" alt="" />
-                    <div class="card-body">
-                      <h4 class="card-title">Drink can design</h4>
-                      <p class="card-text">Packaging</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                  <div class="card">
-                    <img class="card-img-top" src="./images/voiceover.jpg" alt="" />
-                    <div class="card-body">
-                      <h4 class="card-title">I love you hand gesture</h4>
-                      <p class="card-text">Illustrations</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="card">
-                      <img class="card-img-top" src="./images/analyst.jpg" alt="" />
-                      <div class="card-body">
-                        <h4 class="card-title">I love you hand gesture</h4>
-                        <p class="card-text">Illustrations</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6 col-md-3">
-                    <div class="card">
-                      <div class="card-body">
-                        <h4 class="card-title">What's Your Skill?</h4>
-                        <button>Become a Seller</button>
-                      </div>
-                    </div>
-                  </div>
+      <div class="title text-center">
+        <h1>Join our growing freelance community</h1>
+      </div>
+      <div class="project__content">
+        <!-- Tab panes -->
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <div class="card h-100" style="background-image: url(./images/designer.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+              <!-- <img class="card-img-top" src="./images/designer.jpg" alt="" /> -->
+              <div class="card-img-overlay">
+                <h4 class="card-title text-white">I am <br> a Designer</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <div class="card h-100"  style="background-image: url(./images/developer.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+              <!-- <img class="card-img-top" src="./images/developer.jpg" alt="" /> -->
+              <div class="card-img-overlay">
+                <h4 class="card-title text-white">I am <br> a Developer</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <div class="card h-100" style="background-image: url(./images/writer.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+              <!-- <img class="card-img-top" src="./images/writer.jpg" alt="" /> -->
+              <div class="card-img-overlay">
+                <h4 class="card-title text-white">I am <br> a Writer</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card h-100"  style="background-image: url(./images/video.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+              <img class="card-img-top" src="./images/video.jpg" alt="" />
+              <div class="card-img-overlay">
+                <h4 class="card-title text-white">I am <br> a Video Editor</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card h-100"  style="background-image: url(./images/musician.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+              <img class="card-img-top" src="./images/musician.jpg" alt="" />
+              <div class="card-img-overlay">
+                <h4 class="card-title text-white">I am <br> a Musician</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card h-100"  style="background-image: url(./images/voiceover.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+              <img class="card-img-top" src="./images/voiceover.jpg" alt="" />
+              <div class="card-img-overlay">
+                <h4 class="card-title text-white">I am <br> a Voiceover Artist</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card h-100"  style="background-image: url(./images/analyst.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+              <!-- <img class="card-img-top" src="./images/analyst.jpg" alt="" /> -->
+              <div class="card-img-overlay">
+                <h4 class="card-title text-white">I am <br> a Social Media<br>Marketer</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card w-100">
+              <div class="card-body">
+                <i class="fa-solid fa-heart"></i>
+                <h4 class="card-title">What's Your Skill?</h4>
+                <button>Become a Seller</button>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="container">
+      <div class="work__title">
+        <h1>How it works</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fa-regular fa-clipboard"></i>
+          <h3>1. Create a Gig</h3>
+          <p>
+            Sign up for free, set up your Gig, and offer your work to our global
+            audience.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa-regular fa-paper-plane"></i>
+          <h3>2. Deliver great work</h3>
+          <p>
+            Get notified when you get an order and use our system to discuss
+            details with customers.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa-regular fa-square-check"></i>
+          <h3>3. Get paid</h3>
+          <p>
+            Get paid on time, every time. Payment is available for withdrawal as
+            soon as it clears.
+          </p>
+        </div>
+      </div>
+      <div></div>
+    </section>
+
+    <!-- Learn -->
+    <section id="learn" class="container">
+      <div class="col-md-6">
+        <img
+          src="./images/learn_more-a06723146c93bf114f2a54f947f9bf9c.svg"
+          alt=""
+        />
+        <h2>
+          On-demand professional courses, led by the world’s leading experts.
+        </h2>
+        <p>
+          Discover what it takes to be a top-notch seller on Fiverr with this
+          complimentary Learn from Fiverr course.
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="col-md-6"></div>
+    </section>
+
+    <!-- Buyer -->
+    <section class="container">
+      <h1>Buyer stories</h1>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-3">
+          <div>
+            <img
+              src="./images/gore-1f4172b427d8f9e235315a4bef0005ba.jpg"
+              class="w-100"
+            />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div>
+            <p>"People love our logo, and we love Fiverr."</p>
+            <p>Jennifer Gore, CEO of Weleet</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div>
+            <img
+              src="./images/mashal-33f872c49bcda0de9f8885221576da31.jpg"
+              class="w-100"
+            />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div>
+            <p>
+              "Fiverr is an amazing resource for anyone in the startup space."
+            </p>
+            <p>Adam Mashaal, CEO of Mashfeed</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div>
+            <p>
+              "There is no way I could have produced anything without Fiverr."
+            </p>
+            <p>Christopher Sunami, Music Producer</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div>
+            <img
+              src="./images/sunami-267bb7f3aef30a93da28c53c9b1e360d.jpg"
+              class="w-100"
+            />
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div>
+            <p>
+              "Fiverr enables me to quickly, efficiently and cost-effectively
+              get things done."
+            </p>
+            <p>Cristina Dolan, Entrepreneur</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div>
+            <img
+              src="./images/dolan-abb0849dca439bdcdc477b1f77ab9a68.jpg"
+              class="w-100"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quest -->
+    <section id="quest" class="container">
+      <h1>Q&A</h1>
+      <div id="accordion" class="row">
+        <div class="card col-md-6">
+          <a class="card-link" data-toggle="collapse" href="#collapse1">
+            <div class="card-header">What can I sell?</div>
+          </a>
+          <div id="collapse1" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Be creative! You can offer any service you wish as long as it's
+              legal and complies with our terms. There are over 200 categories
+              you can browse to get ideas.
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-6">
+          <a class="card-link" data-toggle="collapse" href="#collapse2">
+            <div class="card-header">How much money can I make?</div>
+          </a>
+          <div id="collapse2" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              It's totally up to you. You can work as much as you want. Many
+              sellers work on Fiverr full time and some keep their 9-5 job while
+              using Fiverr to make extra money.
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-6">
+          <a class="card-link" data-toggle="collapse" href="#collapse3">
+            <div class="card-header">How much does it cost</div>
+          </a>
+          <div id="collapse3" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              It's free to join Fiverr. There is no subscription required or
+              fees to list your services. You keep 80% of each transaction.
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-6">
+          <a class="card-link" data-toggle="collapse" href="#collapse4">
+            <div class="card-header">How much time will I need to invest?</div>
+          </a>
+          <div id="collapse4" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              It's very flexible. You need to put in some time and effort in the
+              beginning to learn the marketplace and then you can decide for
+              yourself what amount of work you want to do.
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-6">
+          <a class="card-link" data-toggle="collapse" href="#collapse5">
+            <div class="card-header">How do I price my service?</div>
+          </a>
+          <div id="collapse5" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              With Gig Packages, you set your pricing anywhere from $5 - $995
+              and offer three versions of your service at three different
+              prices.
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-6">
+          <a class="card-link" data-toggle="collapse" href="#collapse6">
+            <div class="card-header">How do I get paid?</div>
+          </a>
+          <div id="collapse6" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Once you complete a buyer's order, the money is transferred to
+              your account. No need to chase clients for payments and wait 60 or
+              90 days for a check.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <h5>Sign up and create your first Gig today</h5>
+        <button>Get Started</button>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a class="navbar-brand" href="#">fiverr<span>R</span></a>
+            <p class="d-inline">Privacy Policy | Terms of Service</p>
+            <p class="d-inline">© Fiverr International Ltd. 2023</p>
+          </div>
+          <div class="col-md-6">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-globe"></i>English
+            <i class="fa-solid fa-dollar-sign"></i>USD
+            <i class="fa-solid fa-circle-user"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
