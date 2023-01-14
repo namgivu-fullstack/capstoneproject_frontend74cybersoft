@@ -79,12 +79,9 @@ footer i.fa {font-size: 1.6rem}
 
 /**/
 
-.testimonials--carousel .slick-arrow {
-    background-color: #60606033;
-}
-.testimonials--wrapper       {display: flex; flex-direction: row; }
-.testimonials--wrapper > div {display: flex}
-.testimonials--textcontent   {flex-direction: column; }
+.testimonial .carousel-control-prev,
+.testimonial .carousel-control-next
+{ background-color: #60606033; }
 
 /*TODO scss var greytextcolor=#b5b6ba*/
 

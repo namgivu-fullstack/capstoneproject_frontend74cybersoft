@@ -34,58 +34,59 @@
     <div class="container-fluid">TODO middlecontent0</div>
     <div class="container-fluid">TODO middlecontent0</div>
 
-    <div class="container-fluid testimonials">
-        <div class="testimonials--carousel">
-            <div class="carousel-item active">
-                <div class="testimonials--wrapper">
-                    <div class="testimonials--videomodel">
-                        <video width="320" height="240" controls>
-                            <source src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/plfa6gdjihpdvr10rchl">
-                        </video>
-                    </div>
+    <div class="container-fluid testimonial">
+        <div id="testimonial--carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#testimonial--carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#testimonial--carousel" data-slide-to="1"></li>
+                <li data-target="#testimonial--carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="testimonials--wrapper">
+                        <div class="testimonials--videomodel">
+                            <video width="320" height="240" controls>
+                                <source src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/plfa6gdjihpdvr10rchl">
+                            </video>
+                        </div>
 
-                    <div class="testimonials--textcontent">
-                        <h5>
-                            Caitlin Tormey, Chief Commercial Officer
-                            <span class="testimonials--logo"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/naadam-logo-x2.0a3b198.png"></span>
-                        </h5>
-                        <p>"We've used Fiverr for Shopify web development, graphic design, and backend web development. Working with Fiverr makes my job a little easier every day."</p>
+                        <div class="testimonials--textcontent">
+                            <h5>
+                                Caitlin Tormey, Chief Commercial Officer
+                                <span class="testimonials--logo"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/naadam-logo-x2.0a3b198.png"></span>
+                            </h5>
+                            <p>"We've used Fiverr for Shopify web development, graphic design, and backend web development. Working with Fiverr makes my job a little easier every day."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonials--wrapper">
+                        <div class="testimonials--videomodel">
+                            <video width="320" height="240" controls>
+                                <source src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/rb8jtakrisiz0xtsffwi">
+                            </video>
+                        </div>
+
+                        <div class="testimonials--textcontent">
+                            <h5>
+                                Tim and Dan Joo, Co-Founders
+                                <span class="testimonials--logo"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/haerfest-logo-x2.03fa5c5.png"></span>
+                            </h5>
+                            <p>"It's extremely exciting that Fiverr has freelancers from all over the world — it broadens the talent pool. One of the best things about Fiverr is that while we're sleeping, someone's working."</p>                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="carousel-item">
-                <div class="testimonials--wrapper">
-                    <div class="testimonials--videomodel">TODO video</div>
-                    <div class="testimonials--textcontent">
-                        <h5>
-                            Brighid Gannon (DNP, PMHNP-BC), Co-Founder
-                            <span class="testimonials--logo"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/lavender-logo-x2.89c5e2e.png"></span>
-                        </h5>
-                        <p>"We used Fiverr for SEO, our logo, website, copy, animated videos — literally everything. It was like working with a human right next to you versus being across the world."</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <div class="testimonials--wrapper">
-                    <div class="testimonials--videomodel">
-                        <video width="320" height="240" controls>
-                            <source src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/rb8jtakrisiz0xtsffwi">
-                        </video>
-                    </div>
-
-                    <div class="testimonials--textcontent">
-                        <h5>
-                            Tim and Dan Joo, Co-Founders
-                            <span class="testimonials--logo"><img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/haerfest-logo-x2.03fa5c5.png"></span>
-                        </h5>
-                        <p>"It's extremely exciting that Fiverr has freelancers from all over the world — it broadens the talent pool. One of the best things about Fiverr is that while we're sleeping, someone's working."</p>                    </div>
-                </div>
-            </div>
-
-         </div>
-
+            <a class="carousel-control-prev" href="#testimonial--carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial--carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
 
     <div class="container-fluid logomaker_">
@@ -339,7 +340,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <!-- bootstrap4 js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
     <!--region carousel w/ slick ref. https://kenwheeler.github.io/slick/-->
     <script type="text/javascript" src="./lib/slick/slick.min.js"></script>
