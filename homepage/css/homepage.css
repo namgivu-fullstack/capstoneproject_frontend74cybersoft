@@ -41,7 +41,7 @@ footer i.fa {font-size: 1.6rem}
 
 /* verticalalignmiddle content of div.getstarted ref. https://stackoverflow.com/a/18649137/248616 */
 .getstarted                      {position: relative}
-.getstarted--verticalalignmiddle {position: absolute; top: 50%;transform: translateY(-50%); }
+.getstarted--verticalalignmiddle {position: absolute; top: 50%; transform: translateY(-50%); }
 
 
 /**/
@@ -53,12 +53,14 @@ footer i.fa {font-size: 1.6rem}
 .fiverrguide          {position: relative}
 .fiverrguide .seemore {position: absolute; right: 3rem; top: 0}
 
+
 /**/
 
 .madeonfiverr          {position: relative}
 .madeonfiverr .seemore {position: absolute; right: 3rem; top: 0}
 
 .madeonfiverr--carousel .slick-arrow {background-color: #60606033}
+
 
 /**/
 
@@ -69,6 +71,11 @@ footer i.fa {font-size: 1.6rem}
     min-height: 344px;
     background-repeat: no-repeat;
 }
+
+/* verticalalignmiddle content of div.getstarted ref. https://stackoverflow.com/a/18649137/248616 */
+.logomaker                      {position: relative}
+.logomaker--verticalalignmiddle {position: absolute; top: 50%; transform: translateY(-50%); }
+
 
 /*TODO scss var greytextcolor=#b5b6ba*/
 
