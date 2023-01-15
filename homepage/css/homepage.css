@@ -79,9 +79,14 @@ footer i.fa {font-size: 1.6rem}
 
 /**/
 
-.testimonial .carousel-control-prev,
-.testimonial .carousel-control-next
-{ background-color: #60606033; }
+.testimonial .carousel-control-prev span,
+.testimonial .carousel-control-next span
+{
+    color: white; background-color: #60606066;
+    width: 36px; height: 36px;
+    border-radius: 18px;
+}
+
 
 /*TODO scss var greytextcolor=#b5b6ba*/
 
