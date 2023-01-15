@@ -108,6 +108,35 @@ footer i.fa {font-size: 1.6rem}
     background-size:  contain;
     background-repeat:  no-repeat;
 }
+
+.biz .new {
+    background: #584aff;
+    color: white;
+    border-radius: 6px;
+    padding: 0 6px;
+    font-size: .7rem;
+}
+
+.biz { padding: 5rem; }
+.biz .leftcol > *  { margin-bottom: 1rem; }
+.biz .leftcol > h2 { margin-top:    2rem; }
+
+.biz .leftcol p,
+.biz .leftcol li
+{ font-size: 1.1rem; }
+
+.biz li i {
+    font-size: 1.6rem;
+    margin-left: -2.4rem;
+    color: grey;
+}
+.biz .btn {
+    margin-top: 2rem;
+    padding: 0.6rem 1.8rem;
+}
+
+/**/
+
 /*TODO scss var greytextcolor=#b5b6ba*/
 
 /*TODO scss var body--padding-right=3rem used for
