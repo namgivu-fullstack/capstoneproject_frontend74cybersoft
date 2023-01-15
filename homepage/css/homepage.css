@@ -103,7 +103,11 @@ footer i.fa {font-size: 1.6rem}
     color: white;
 }
 .biz-logo { width: 178px; height: auto}
-
+.biz-bg {
+    background-image: url('https://fiverr-res.cloudinary.com/q_auto,f_auto,w_585,dpr_1.0/v1/attachments/generic_asset/asset/d9c17ceebda44764b591a8074a898e63-1599597624769/business-desktop-585-x1.png');
+    background-size:  contain;
+    background-repeat:  no-repeat;
+}
 /*TODO scss var greytextcolor=#b5b6ba*/
 
 /*TODO scss var body--padding-right=3rem used for
