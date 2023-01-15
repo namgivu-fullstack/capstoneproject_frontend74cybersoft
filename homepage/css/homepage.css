@@ -82,9 +82,9 @@ footer i.fa {font-size: 1.6rem}
 .testimonial .carousel-control-prev span,
 .testimonial .carousel-control-next span
 {
-    color: white; background-color: #60606066;
-    width: 36px; height: 36px;
-    border-radius: 18px;
+    background-color: #60606066;
+    width: 24px; height: 24px;
+    border-radius: 36px;
 }
 
 
