@@ -1,0 +1,146 @@
+body * {border: 1px solid #00000033}
+
+body * {font-family: 'Be Vietnam Pro', sans-serif;}
+
+/**/
+
+body .container-fluid {
+    padding-left:  3rem;
+    padding-right: 3rem;
+}
+
+/**/
+
+footer {display: flex;  min-width: 0}
+footer .left  {}
+footer .right {margin-left: auto;}
+
+footer .left .legal {color: #b5b6ba}
+footer i.fa {font-size: 1.6rem}
+
+/**/
+
+.navbar_footer ul {list-style: none; padding-left: 0;}
+.navbar_footer li.subitem {color: #b5b6ba;font-size: 14px;}
+.navbar_footer--title {font-weight: bold;}
+
+/**/
+
+.getstarted {
+    background: url('https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png');
+    background-size: cover;
+    min-height: 333px;
+    background-repeat: no-repeat;
+}
+
+.getstarted p {
+    color: white;
+    font-size: 2.4rem;
+    width: 66%;
+}
+
+/* verticalalignmiddle content of div.getstarted ref. https://stackoverflow.com/a/18649137/248616 */
+.getstarted                      {position: relative}
+.getstarted--verticalalignmiddle {position: absolute; top: 50%; transform: translateY(-50%); }
+
+
+/**/
+
+.fiverrguide h2          {font-weight: bold}
+.fiverrguide .card-title {font-weight: bold}
+
+/* righttop position */
+.fiverrguide          {position: relative}
+.fiverrguide .seemore {position: absolute; right: 3rem; top: 0}
+
+
+/**/
+
+.madeonfiverr          {position: relative}
+.madeonfiverr .seemore {position: absolute; right: 3rem; top: 0}
+
+.madeonfiverr--carousel .slick-arrow {background-color: #60606033}
+
+
+/**/
+
+.logomaker { background-color: #446ee7; color: white; }
+.logomaker {
+    background-image: url('https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1112,dpr_1.0/v1/attachments/generic_asset/asset/b49b1963f5f9008f5ff88bd449ec18f7-1608035772453/logo-maker-banner-wide-desktop-1352-2x.png');
+    background-size: cover;
+    min-height: 344px;
+    background-repeat: no-repeat;
+}
+
+/* verticalalignmiddle content of div.getstarted ref. https://stackoverflow.com/a/18649137/248616 */
+.logomaker                      {position: relative}
+.logomaker--verticalalignmiddle {position: absolute; top: 50%; transform: translateY(-50%); }
+
+
+/**/
+
+.testimonial .carousel-control-prev span,
+.testimonial .carousel-control-next span
+{
+    background-color: #60606066;
+    width: 24px; height: 24px;
+    border-radius: 36px;
+}
+
+.testimonials--textcontent p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.testimonials--textcontent h5 { color: grey }
+.testimonials--logo img { height: 2rem; width: auto }
+
+
+/**/
+
+.biz {
+    background: #0d084d;
+    color: white;
+}
+.biz-logo { width: 178px; height: auto}
+.biz-bg {
+    background-image: url('https://fiverr-res.cloudinary.com/q_auto,f_auto,w_585,dpr_1.0/v1/attachments/generic_asset/asset/d9c17ceebda44764b591a8074a898e63-1599597624769/business-desktop-585-x1.png');
+    background-size:  contain;
+    background-repeat:  no-repeat;
+}
+
+.biz .new {
+    background: #584aff;
+    color: white;
+    border-radius: 6px;
+    padding: 0 6px;
+    font-size: .7rem;
+}
+
+.biz { padding: 5rem; }
+.biz .leftcol > *  { margin-bottom: 1rem; }
+.biz .leftcol > h2 { margin-top:    2rem; }
+
+.biz .leftcol p,
+.biz .leftcol li
+{ font-size: 1.1rem; }
+
+.biz li i {
+    font-size: 1.6rem;
+    margin-left: -2.4rem;
+    color: grey;
+}
+.biz .btn {
+    margin-top: 2rem;
+    padding: 0.6rem 1.8rem;
+}
+
+/**/
+
+/*TODO scss var greytextcolor=#b5b6ba*/
+
+/*TODO scss var body--padding-right=3rem used for
+body .container-fluid {
+.fiverrguide .seemore { top
+.madeonfiverr .seemore { top
+*/
