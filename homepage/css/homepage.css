@@ -96,6 +96,14 @@ footer i.fa {font-size: 1.6rem}
 .testimonials--logo img { height: 2rem; width: auto }
 
 
+/**/
+
+.biz {
+    background: #0d084d;
+    color: white;
+}
+.biz-logo { width: 178px; height: auto}
+
 /*TODO scss var greytextcolor=#b5b6ba*/
 
 /*TODO scss var body--padding-right=3rem used for
