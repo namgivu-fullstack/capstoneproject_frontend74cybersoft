@@ -87,6 +87,14 @@ footer i.fa {font-size: 1.6rem}
     border-radius: 36px;
 }
 
+.testimonials--textcontent p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.testimonials--textcontent h5 { color: grey }
+.testimonials--logo img { height: 2rem; width: auto }
+
 
 /*TODO scss var greytextcolor=#b5b6ba*/
 
